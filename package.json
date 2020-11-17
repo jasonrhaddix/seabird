@@ -1,0 +1,45 @@
+{
+  "name": "synapsis",
+  "version": "0.1.0",
+  "description": "Automation tools for the Vue ecosystem",
+  "main": "index.js",
+  "author": "Jason R. Haddix",
+  "license": "MIT",
+  "homepage": "https://github.com/jasonrhaddix/synapsis#readme",
+  "bin": {
+    "synapsis": "./index.js",
+    "syn": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonrhaddix/synapsis.git"
+  },
+  "keywords": [
+    "vue",
+    "devtools",
+    "automation"
+  ],
+  "bugs": {
+    "url": "https://github.com/jasonrhaddix/synapsis/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "child-process-async": "^1.0.1",
+    "command-exists": "^1.2.9",
+    "commander": "^6.1.0",
+    "data-store": "^4.0.3",
+    "download-git-repo": "^3.0.2",
+    "envinfo": "^7.7.3",
+    "figlet": "^1.5.0",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "js-yaml": "^3.14.0",
+    "lodash.get": "^4.4.2",
+    "node-emoji": "^1.10.0",
+    "ora": "^5.1.0",
+    "walk-sync": "^2.2.0"
+  }
+}
