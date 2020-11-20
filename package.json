@@ -1,7 +1,7 @@
 {
   "name": "synapsis",
   "version": "0.1.0",
-  "description": "Automation tools for the Vue ecosystem",
+  "description": "Automation tools for the Vue ecosystem - alpha",
   "main": "index.js",
   "author": "Jason R. Haddix",
   "license": "MIT",
