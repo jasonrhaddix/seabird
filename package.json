@@ -1,29 +1,31 @@
 {
-  "name": "synapsis",
+  "name": "seabird",
   "version": "0.1.0",
   "description": "Automation tools for the Vue ecosystem - alpha",
   "main": "index.js",
   "author": "Jason R. Haddix",
   "license": "MIT",
-  "homepage": "https://github.com/jasonrhaddix/synapsis#readme",
+  "homepage": "https://github.com/jasonrhaddix/seabird#readme",
   "bin": {
-    "synapsis": "./index.js",
-    "syn": "./index.js"
+    "seabird": "./index.js",
+    "sea": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasonrhaddix/synapsis.git"
+    "url": "git+https://github.com/jasonrhaddix/seabird.git"
   },
   "keywords": [
     "vue",
+    "vuex",
+    "vue-router",
     "devtools",
     "automation"
   ],
   "bugs": {
-    "url": "https://github.com/jasonrhaddix/synapsis/issues"
+    "url": "https://github.com/jasonrhaddix/seabird/issues"
   },
   "dependencies": {
     "chalk": "^4.1.0",
@@ -38,7 +40,6 @@
     "find-up": "^5.0.0",
     "fs-extra": "^9.0.1",
     "inquirer": "^7.3.3",
-    "js-yaml": "^3.14.0",
     "lodash.get": "^4.4.2",
     "node-emoji": "^1.10.0",
     "ora": "^5.1.0",
