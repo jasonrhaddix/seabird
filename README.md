@@ -11,9 +11,9 @@ Seabird is a command line tool that adds automation for the Vue ecosystem. Its m
 ##Status
 __`Alpha`__  This project is currently in alpha phase. 
 
-Some features may break between release, and others may be removed entirely. Look to the __Feature Status__ section below to see which phase a current feature is in. 
+Some features may break between releases, and others may be removed entirely. Look to the __Feature Status__ section below to see which phase a current feature is in. 
 
-I am not currently pull requests. However, if you'd like a feature added, please submit an issue in GitHub as a feature request.
+I am not currently accepting pull requests. However, if you'd like a feature added, please submit an issue in GitHub as a feature request.
 
 
 ## Installation
@@ -26,11 +26,11 @@ npm i seabird -g
 
 
 ## Commands
-| Command       | Shorthand    | Description                            |
-| ------------- |:------------:| ------------------------------------|
-| init          | i            | Initializes a new Vue project                   |
-| create        | c            | Create ecosystem components              |
-| config        |              | Creates of modifies config file               |
+| Command       | Shorthand    | Description                           |
+| ------------- |:------------:| --------------------------------------|
+| init          | i            | Initializes a new Vue project         |
+| create        | c            | Create ecosystem components           |
+| config        |              | Creates or modifies config file       |
 
 
 
@@ -45,18 +45,18 @@ __Options__
 | Option             | Shorthand      | Description                                    |
 | ------------------ |:-------------------:| ------------------------------------------|
 | --template         | t                   | Download a project from a Git repo        |
-| --new              | n                   | Create a new app using Vue CLI            |
+| --new              | n                   | Create a new project using Vue CLI        |
 | --config           | c                   | Creates a config file after app init      |
 
-__template__ and __new__ flags are conflicting, and only one must be passed at a time. If no options are passed, you will be prompted to choose between the two.
+__template__ and __new__ flags are conflicting options, and only one must be passed at a time. If neither options are passed, you will be prompted to choose between the two.
 
-_To create a new project, Vue CLI will need to be installed on your machine. If the CLI is not installed you will be prompted to install before continuing._
+_To create a new project, Vue CLI will need to be installed on your machine. If the Vue CLI is not installed you will be prompted to install before continuing._
 
 ##Sub-Commands
 
 Subcommands are grouped to make targeting the correct subcommand easier.
 
-For example, if you want to create a new Vue component you need to call the `create` command with the `vue` subcommand targeting the Vue library, and then the `component` subcommand.
+For example, if you want to create a new Vue component you need to call the `create` command with the `vue` subcommand targeting the Vue library, and then the `component` subcommand to create a Vue component.
 
 
 __Example__
@@ -66,7 +66,7 @@ Calling `--help` at any level will output subcommands and options and will help 
 
 __Arguments__ 
 
-Almost all subcommands will have arguments that are either are `<require>` or `optional`. Seabird will normally try to make assumptions or set defaults when optional arguments are not supplied. If required arguments are not supplied Seabird will abort the command.
+Almost all subcommands will have arguments that are either `<required>` or `[optional]`. Seabird will normally try to make assumptions or set defaults when optional arguments are not supplied. If required arguments are not supplied Seabird will abort the command.
 
 
 -------------------
@@ -118,15 +118,19 @@ __init__
 
 __create__
 `seabird create vue component <file-path> [...options]` - working
+
 `seabird create vue view <file-path> [...options]` - working
 
 `seabird create vuex module <file-path> [...options]` - in progress
+
 `seabird create vuex action  <file-path> [...options]` - pending
 
 `seabird create vue-router module <file-path> [...options]` - pending
+
 `seabird create vue-router action <file-path> [...options]` - pending
 
 `seabird create router module <file-path> [...options]` - pending
+
 `seabird create router module <file-path> [...options]` - pending
 
 `seabird create custom <template-name> <file-path>` - pending
