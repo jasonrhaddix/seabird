@@ -69,9 +69,7 @@ __Arguments__
 Almost all subcommands will have arguments that are either `<required>` or `[optional]`. Seabird will normally try to make assumptions or set defaults when optional arguments are not supplied. If required arguments are not supplied Seabird will abort the command.
 
 
--------------------
 ####Create Commands
--------------------
 
 ####Vue `vue`
 __Subcommands__
