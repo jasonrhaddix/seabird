@@ -138,7 +138,7 @@ const findUp = require('find-up');
 const walkSync = require('walk-sync');
 &nbsp;
 const { 
-    APP_PACKAGE_FILE
+    APP_FILE__PACKAGE
 } = require('../data/constants')
 &nbsp;
 module.exports = {
@@ -153,7 +153,7 @@ module.exports = {
     },
 &nbsp;
     getRootPath: async () =&gt; {
-        let path = await findUp(APP_PACKAGE_FILE)
+        let path = await findUp(APP_FILE__PACKAGE)
         <span class="missing-if-branch" title="if path not taken" >I</span>if (!path) <span class="cstat-no" title="statement not covered" >return false</span>
         return path.split('/').slice(0, -1).join('/') 
     },

@@ -151,7 +151,7 @@ const ora = require('ora')
 const figlet = require('figlet')
 &nbsp;
 const { 
-    APP_CONFIG_FILE
+    APP_FILE__CONFIG
 } = require('./data/constants')
 &nbsp;
 &nbsp;
@@ -171,8 +171,8 @@ const emojis = {
 module.exports = {
     conflictingFlags: <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >console.log(`${emojis.error}  You cannot pass conflicting flags`),</span>
     installComplete: <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >console.log(`${emojis.rainbow} ${chalk.cyan('Installation Complete')}`),</span>
-    configExists: <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >console.log(`${emojis.error}  Cannot initialize app -- ${APP_CONFIG_FILE} already exists`),</span>
-    configDoesNotExist: <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >console.log(`${emojis.error}  Cannot find ${APP_CONFIG_FILE} file`),</span>
+    configExists: <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >console.log(`${emojis.error}  Cannot initialize app -- ${APP_FILE__CONFIG} already exists`),</span>
+    configDoesNotExist: <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >console.log(`${emojis.error}  Cannot find ${APP_FILE__CONFIG} file`),</span>
     dirNotEmpty: <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >console.log(`${emojis.error}  Not an empty directory`),</span>
 &nbsp;
     downloadRepo: <span class="fstat-no" title="function not covered" >()</span> =&gt; {
