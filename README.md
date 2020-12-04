@@ -8,7 +8,8 @@ Seabird is a command line tool that adds automation for the Vue ecosystem. Its m
 
 >Currently Seabird can only genterate Vue components and views, however, we are adding Vue-router modules, routes, Vuex modules, and vuex actions very soon.
 
-##Status
+
+## Status
 __`Alpha`__  This project is currently in alpha phase. 
 
 Some features may break between releases, and others may be removed entirely. Look to the __Feature Status__ section below to see which phase a current feature is in. 
