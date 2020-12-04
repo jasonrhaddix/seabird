@@ -53,7 +53,7 @@ __template__ and __new__ flags are conflicting options, and only one must be pas
 
 _To create a new project, Vue CLI will need to be installed on your machine. If the Vue CLI is not installed you will be prompted to install before continuing._
 
-##Sub-Commands
+## Sub-Commands
 
 Subcommands are grouped to make targeting the correct subcommand easier.
 
@@ -70,9 +70,9 @@ __Arguments__
 Almost all subcommands will have arguments that are either `<required>` or `[optional]`. Seabird will normally try to make assumptions or set defaults when optional arguments are not supplied. If required arguments are not supplied Seabird will abort the command.
 
 
-####Create Commands
+#### Create Commands
 
-####Vue `vue`
+#### Vue `vue`
 __Subcommands__
 Example: `seabird create vue <vue-subcommand>`
 
@@ -92,7 +92,7 @@ Example: `seabird create vue component <file-path> --vuex-map --no-scoped-styles
 | --css-lang          |                       | 'css'       | Sets the `lang` attribute value on style tag |
 
 ---
-####Vuex `vuex`
+#### Vuex `vuex`
 __Subcommands__
 Example: `seabird create vuex <vue-subcommand>`
 
@@ -101,7 +101,7 @@ Example: `seabird create vuex <vue-subcommand>`
 | module         | `<file-path>`      | Create a new Vuex module                   |
 | action         |  `<file-path>`     | Create a new Vuex action inside a module   |
 
-####Vue-Router `router`
+#### Vue-Router `router`
 __Subcommands__
 Example: `seabird create router <vue-subcommand>`
 
@@ -111,7 +111,7 @@ Example: `seabird create router <vue-subcommand>`
 | route          |  `<file-path>`    | Create a new Vue-router route inside a module   |
 
 
-##Feature Status
+## Feature Status
 __init__
 `seabird init [...options]` - working
 
