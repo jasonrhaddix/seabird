@@ -2,7 +2,6 @@
 const figlet = require('figlet')
 const chalk = require('chalk')
 
-
 const run = async () => {
     console.clear()
 
