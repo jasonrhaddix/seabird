@@ -120,7 +120,7 @@ __create__
 
 `seabird create vue view <file-path> [...options]` - working
 
-`seabird create vuex module <file-path> [...options]` - in progress
+`seabird create vuex module <file-path> [...options]` - working (alpha)
 
 `seabird create vuex action  <file-path> [...options]` - pending
 
