@@ -19,7 +19,7 @@ describe('Tests filesystem utilities', () => {
     })
 
     it('tests matching paths are returned as array', async () => {
-        let matchingPaths = await getMatchingPaths('nonEmptyDir', '__mocks__/directories')
+        let matchingPaths = await getMatchingPaths('__mocks__/directories', 'nonEmptyDir')
         expect(matchingPaths).toBeArray()
     })
 
