@@ -118,19 +118,15 @@ __init__
 __create__
 `seabird create vue component <file-path> [...options]` - working
 
-`seabird create vue view <file-path> [...options]` - working
+`seabird create vue view <file-path> [...options]` - update in progress
 
 `seabird create vuex module <file-path> [...options]` - working (alpha)
 
 `seabird create vuex action  <file-path> [...options]` - pending
 
-`seabird create vue-router module <file-path> [...options]` - pending
-
-`seabird create vue-router action <file-path> [...options]` - pending
-
 `seabird create router module <file-path> [...options]` - pending
 
-`seabird create router module <file-path> [...options]` - pending
+`seabird create router action <file-path> [...options]` - pending
 
 `seabird create custom <template-name> <file-path>` - pending
 
