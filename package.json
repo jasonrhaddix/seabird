@@ -22,7 +22,9 @@
     "vuex",
     "vue-router",
     "devtools",
-    "automation"
+    "automation",
+    "create",
+    "components"
   ],
   "bugs": {
     "url": "https://github.com/jasonrhaddix/seabird/issues"
