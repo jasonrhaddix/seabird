@@ -112,15 +112,18 @@ Example: `seabird create router <vue-subcommand>`
 
 
 ## Feature Status
-__init__
+__Init__
+
 `seabird init [...options]` - working
 
-__create__
+
+__Create__
+
 `seabird create vue component <file-path> [...options]` - working
 
 `seabird create vue view <file-path> [...options]` - working
 
-`seabird create vuex module <file-path> [...options]` - working: update in progress
+`seabird create vuex module <file-path> [...options]` - working
 
 `seabird create vuex action  <file-path> [...options]` - pending
 
@@ -130,8 +133,12 @@ __create__
 
 `seabird create custom <template-name> <file-path>` - pending
 
-__config__
+
+__Config__
+
 `seabird config generate` - working
 
-__eject__
+
+__Eject__
+
 `seabird eject templates` - pending
