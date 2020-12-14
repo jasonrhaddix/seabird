@@ -27,7 +27,7 @@ To use Seabird in any directory be sure to install globally.
 ```bash
 npm i seabird -g
 ```
->You can use `seabird` or `sea` to call commands when using Seabird
+>You can use `seabird` or `sea` to call commands
 
 
 
@@ -37,6 +37,7 @@ Seabird is a command line tool that will either generate files from [ejs](https:
 By creating a `seabird.config.js` file, you can override the default options, data, or even supply your own `.ejs` template to render. Seabird will use the data object in the config against either the default, or supplied template. However, if you define the data object with reserved JavaScript keywords as keys, the application will halt and the template will not compile. 
 
 __Options Hierarchy__
+
 `command defined > config defined > default`
 
 The above hierarchy allows you to override the default options with your own in the config, but still have the option to override your own settings on a per-command instance.
@@ -61,6 +62,7 @@ Commands are chained to make targeting the correct command easier.
 For example, if you want to create a new Vue component you need to call the `create` command, with the `vue` subcommand, targeting the Vue library, and then the `component` subcommand along with the required `<file-path>` to create a Vue component
 
 __Example__
+
 `seabird create vue component <file-path> [...options]`
 `seabird create router module <file-path>`
 `seabird config generate`
@@ -68,6 +70,7 @@ __Example__
 Calling `--help` at any level of the command chain will output a description of the child commands and options.
 
 __Arguments__
+
 Almost all subcommands will have arguments that are either `<required>` or `[optional]`. Seabird will normally try to make assumptions or set defaults when optional arguments are not supplied. If `<required>` arguments are not supplied Seabird will abort the command.
 
 `seabird init [options]`
@@ -176,9 +179,11 @@ Vue `component` and `view` components are created from the same default template
 # Feature Status
 
 __Init__
+
 `seabird init [...options]` - working
 
 __Create__
+
 `seabird create vue component <file-path> [...options]` - working
 `seabird create vue view <file-path> [...options]` - working
 `seabird create vuex module <file-path> [...options]` - working
@@ -188,7 +193,9 @@ __Create__
 `seabird create custom <template-name> <file-path>` - pending
 
 __Config__
+
 `seabird config generate` - working
 
 __Eject__
+
 `seabird eject templates` - pending
