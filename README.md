@@ -64,7 +64,9 @@ For example, if you want to create a new Vue component you need to call the `cre
 __Example__
 
 `seabird create vue component <file-path> [...options]`
+
 `seabird create router module <file-path>`
+
 `seabird config generate`
 
 Calling `--help` at any level of the command chain will output a description of the child commands and options.
@@ -74,8 +76,11 @@ __Arguments__
 Almost all subcommands will have arguments that are either `<required>` or `[optional]`. Seabird will normally try to make assumptions or set defaults when optional arguments are not supplied. If `<required>` arguments are not supplied Seabird will abort the command.
 
 `seabird init [options]`
+
 `seabird create <create-subcommand>`
+
 `seabird config <config-subcommand>`
+
 `seabird --help`
 
 | Command       | Shorthand    | Description                           |
@@ -115,7 +120,9 @@ The `create` command is used for generating new components, Vuex and Vue Router 
 ### `create` __Subcommands__
 
 `seabird create vue <vue-subcommand>`
+
 `seabird create vuex <vuex-subcommand>`
+
 `seabird create router <router-subcommand>`
 
 | Command            | Shorthand | Description                                 |
@@ -128,6 +135,7 @@ The `create` command is used for generating new components, Vuex and Vue Router 
 #### `create vue` Subcommands
 
 `seabird create vue component <file-path> [...options]`
+
 `seabird create vue view <file-path> [...options]`
 
 ##### Subcommands
@@ -153,6 +161,7 @@ Vue `component` and `view` components are created from the same default template
 #### `create vuex` Subcommands
 
 `seabird create vuex module <file-path> [...options]`
+
 `seabird create vuex action <action-path>`
 
 ##### Subcommands
@@ -182,19 +191,28 @@ __Init__
 
 `seabird init [...options]` - working
 
+
 __Create__
 
 `seabird create vue component <file-path> [...options]` - working
+
 `seabird create vue view <file-path> [...options]` - working
+
 `seabird create vuex module <file-path> [...options]` - working
+
 `seabird create vuex action <file-path> [...options]` - pending
+
 `seabird create router module <file-path> [...options]` - pending
+
 `seabird create router action <file-path> [...options]` - pending
+
 `seabird create custom <template-name> <file-path>` - pending
+
 
 __Config__
 
 `seabird config generate` - working
+
 
 __Eject__
 
