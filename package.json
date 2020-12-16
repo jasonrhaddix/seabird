@@ -1,6 +1,6 @@
 {
   "name": "seabird",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Automation tools for the Vue ecosystem - alpha",
   "main": "index.js",
   "author": "Jason R. Haddix",
