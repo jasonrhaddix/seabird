@@ -198,11 +198,11 @@ __Create__
 
 `seabird create vue view <file-path> [...options]` - working
 
-`seabird create vuex module <file-path> [...options]` - working
+`seabird create vuex module <file-path> [...options]` - in development
 
-`seabird create vuex action <file-path> [...options]` - in development
+`seabird create vuex action <file-path> [...options]` - pending
 
-`seabird create router module <file-path> [...options]` - pending
+`seabird create router module <file-path> [...options]` - working
 
 `seabird create router action <file-path> [...options]` - pending
 
